@@ -36,6 +36,7 @@
     border-radius: 30px;
 }
 .search-box input{
+    width: 450px;
     border: none;
     outline: none;
 }
