@@ -1,0 +1,54 @@
+.header{
+    float:right;
+    padding: 10px;
+}
+.header a {
+    padding: 10px;
+    color:black;
+}
+.header a:hover {
+    color:black;
+}
+.container {
+    height: 605px;
+    position: relative;
+  }
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+    padding: 30px;
+}
+.vertical-center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+  }
+.search-box{
+    height: 50px;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+}
+.search-box input{
+    border: none;
+    outline: none;
+}
+.search-box i{
+    color: gray;
+}
+.search-box:hover{
+    border-style: none;
+    box-shadow: 0 0 0.3em gray;
+}
+
+.footer{
+    text-align: center;
+    background-color: black;
+    color: gray;
+}
