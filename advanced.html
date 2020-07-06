@@ -1,22 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Google</title>
+        <link rel = "icon" href = "https://cdn.iconscout.com/icon/free/png-256/google-453-569326.png" type = "image/x-icon">
+        <title>Google Advanced Search</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
-        <div class='container'>
-            <a href="images.html">Images</a>
-            <a href="images.html">Images</a>
+       
+        <div >
+            <div class='header'>
+                <a href="index.html">Search</a>
+                <a href="images.html">Images Search</a>
+            </div>
         </div>
         <div class='container'>
-            <h1>GOOGLE</h1>
-            <form action="https://google.com/search">
-                <input type="text" name="q">
-                <input type="submit" value="Google Search">
-            </form>
+            <h4 style="color:red;"> Advanced Search</h4>
+            <div class='' >
+
+              <form action="https://google.com/search>
+                <div class="form-group row">
+                  <h6> Find pages with...</h6>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col- sm-2 col-form-label">all these words:</label>
+                  <div class="col-sm-5">
+                    <input type="text" class="form-control" name="&as_epq">
+                  </div>
+                  <div class="col-sm-5">
+                    <p>Type the important words: tri-colour rat terrier</p>
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <button type="submit" class="btn btn-primary">Advanced Search</button>
+                </div>
+              </form>  
+
+            </div>
         </div>
+        <footer class="footer">
+            <a>Created by Robson Pires on the project 0 of the course CS50</a>
+        </footer>
+        
     </body>
 </html>
+

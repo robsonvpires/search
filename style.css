@@ -2,6 +2,9 @@
     float:right;
     padding: 10px;
 }
+.adv-header{
+    background-color: gray;
+}
 .header a {
     padding: 10px;
     color:black;
