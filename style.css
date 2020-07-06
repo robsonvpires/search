@@ -56,3 +56,14 @@
     background-color: black;
     color: gray;
 }
+
+#headeradv{
+    height: 60px;
+    background: #e8e8e8;
+}
+
+#headeradv img{
+    margin: 15px;
+    width: 90px;
+    height:30px;
+}
